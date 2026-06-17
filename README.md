@@ -82,21 +82,50 @@ src/
 
 ## Running it
 
-Requires a local [Ollama](https://ollama.com) instance.
+Requires a local [Ollama](https://ollama.com) instance. The code is cross-platform (Python + `pathlib`); commands are shown for both macOS/Linux and Windows.
+
+**1. Pull the embedding model**
 
 ```bash
-# 1. Pull the embedding model (and a chat model for the LLM steps)
 ollama pull nomic-embed-text
+```
 
-# 2. Create the venv (Chroma is the only non-stdlib dependency)
+**2. Create the venv and install dependencies**
+
+macOS / Linux:
+```bash
 python3 -m venv .venv
-.venv/bin/pip install chromadb
+.venv/bin/pip install -r requirements.txt
+```
 
-# 3. Build the index + run a sample retrieval
+Windows (PowerShell):
+```powershell
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+```
+
+**3. Build the index + run a sample retrieval**
+
+macOS / Linux:
+```bash
 cd src && ../.venv/bin/python retriever.py
+```
 
-# 4. Run the full evaluation
+Windows (PowerShell):
+```powershell
+cd src; ..\.venv\Scripts\python retriever.py
+```
+
+**4. Run the full evaluation**
+
+macOS / Linux:
+```bash
 cd src && ../.venv/bin/python run_eval.py
+```
+
+Windows (PowerShell):
+```powershell
+cd src; ..\.venv\Scripts\python run_eval.py
 ```
 
 ---
