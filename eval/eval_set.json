@@ -1,0 +1,102 @@
+[
+  {
+    "id": "NCR-2025-0080",
+    "input": "Bridging observed between Q7 and adjacent pad after reflow.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0191",
+    "input": "Visible dig defect near clear aperture on S2 side; measured 120 um, spec is 10-5.",
+    "expected_defect_type": "Surface Scratch/Dig"
+  },
+  {
+    "id": "NCR-2025-0087",
+    "input": "Core offset suspected; IL 0.6 dB vs 0.5 dB target, re-termination needed.",
+    "expected_defect_type": "Fiber Alignment / Insertion Loss"
+  },
+  {
+    "id": "NCR-2025-0057",
+    "input": "Hole position out by 0.04 mm relative to datum, exceeds 0.02 mm GD&T callout.",
+    "expected_defect_type": "Dimensional Out-of-Tolerance"
+  },
+  {
+    "id": "NCR-2025-0086",
+    "input": "Inspection found a 60 um scratch on the front optical surface, exceeds scratch-dig spec 10-5.",
+    "expected_defect_type": "Surface Scratch/Dig"
+  },
+  {
+    "id": "NCR-2025-0200",
+    "input": "Step height measured 12.07 mm, drawing calls 10.0 +/- 0.05 mm. Out of tolerance.",
+    "expected_defect_type": "Dimensional Out-of-Tolerance"
+  },
+  {
+    "id": "NCR-2025-0044",
+    "input": "Bore dia out by 0.12 mm relative to datum, exceeds 0.01 mm GD&T callout.",
+    "expected_defect_type": "Dimensional Out-of-Tolerance"
+  },
+  {
+    "id": "NCR-2025-0020",
+    "input": "Core offset suspected; IL 1.1 dB vs 0.3 dB target, re-termination needed.",
+    "expected_defect_type": "Fiber Alignment / Insertion Loss"
+  },
+  {
+    "id": "NCR-2025-0131",
+    "input": "Cold solder joint on R12; reflow voiding 28% exceeds 25% IPC limit.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0163",
+    "input": "Slot width measured 12.07 mm, drawing calls 12.0 +/- 0.05 mm. Out of tolerance.",
+    "expected_defect_type": "Dimensional Out-of-Tolerance"
+  },
+  {
+    "id": "NCR-2025-0030",
+    "input": "Wire bond lifted on pad U3; pull test 1.8 g below 4.0 g minimum.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0136",
+    "input": "Bridging observed between R12 and adjacent pad after reflow.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0050",
+    "input": "Visible dig defect near clear aperture on rear side; measured 150 um, spec is 40-20.",
+    "expected_defect_type": "Surface Scratch/Dig"
+  },
+  {
+    "id": "NCR-2025-0199",
+    "input": "Cold solder joint on J1 pin 4; reflow voiding 28% exceeds 25% IPC limit.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0090",
+    "input": "Core offset suspected; IL 1.1 dB vs 0.5 dB target, re-termination needed.",
+    "expected_defect_type": "Fiber Alignment / Insertion Loss"
+  },
+  {
+    "id": "NCR-2025-0187",
+    "input": "Slot width measured 24.98 mm, drawing calls 12.0 +/- 0.02 mm. Out of tolerance.",
+    "expected_defect_type": "Dimensional Out-of-Tolerance"
+  },
+  {
+    "id": "NCR-2025-0166",
+    "input": "Cold solder joint on J1 pin 4; reflow voiding 40% exceeds 25% IPC limit.",
+    "expected_defect_type": "Solder / Bond Defect"
+  },
+  {
+    "id": "NCR-2025-0038",
+    "input": "Particulate contamination on coated surface, 3 particles > 25 um in clear aperture.",
+    "expected_defect_type": "Contamination / Coating Defect"
+  },
+  {
+    "id": "NCR-2025-0061",
+    "input": "Core offset suspected; IL 1.1 dB vs 0.3 dB target, re-termination needed.",
+    "expected_defect_type": "Fiber Alignment / Insertion Loss"
+  },
+  {
+    "id": "NCR-2025-0027",
+    "input": "Inspection found a 150 um scratch on the rear optical surface, exceeds scratch-dig spec 40-20.",
+    "expected_defect_type": "Surface Scratch/Dig"
+  }
+]

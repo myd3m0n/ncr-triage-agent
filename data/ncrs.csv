@@ -1,0 +1,201 @@
+ncr_id,date,part_id,part_name,process,defect_type,description,disposition,root_cause
+NCR-2025-0001,2025-01-13,OPT-5506,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 60 um scratch on the front optical surface, exceeds scratch-dig spec 10-5.",Rework,Operator Error
+NCR-2025-0002,2025-02-14,CTG-7912,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 3 particles > 25 um in clear aperture.",Rework,Process Drift
+NCR-2025-0003,2025-09-16,FBR-1434,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.3 dB target, re-termination needed.",Scrap,Machine/Equipment
+NCR-2025-0004,2025-08-18,FBR-5557,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 1.5 dB, exceeds 0.3 dB max after active alignment.",Return to Vendor,Operator Error
+NCR-2025-0005,2025-03-21,MCH-4527,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia measured 12.07 mm, drawing calls 10.0 +/- 0.05 mm. Out of tolerance.",Rework,Machine/Equipment
+NCR-2025-0006,2025-11-06,MCH-5333,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Step height out by 0.04 mm relative to datum, exceeds 0.01 mm GD&T callout.",Use Under Deviation,Process Drift
+NCR-2025-0007,2025-02-10,ELx-5803,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between R12 and adjacent pad after reflow.,Repair,Machine/Equipment
+NCR-2025-0008,2025-01-24,OPT-4733,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Inspection found a 60 um scratch on the front optical surface, exceeds scratch-dig spec 40-20.",Rework,Machine/Equipment
+NCR-2025-0009,2025-08-21,MCH-6977,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 5.13 mm vs 25.0 mm nominal (0.01 mm tol); oversize.,Rework,Process Drift
+NCR-2025-0010,2025-12-26,MCH-2169,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,"Slot width out by 0.08 mm relative to datum, exceeds 0.02 mm GD&T callout.",Use Under Deviation,Process Drift
+NCR-2025-0011,2025-05-19,ELx-4598,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on R12; reflow voiding 28% exceeds 25% IPC limit.,Repair,Machine/Equipment
+NCR-2025-0012,2025-05-18,ELx-2084,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between J1 pin 4 and adjacent pad after reflow.,Repair,Process Drift
+NCR-2025-0013,2025-12-02,FBR-9179,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.5 dB vs 0.5 dB target, re-termination needed.",Repair,Operator Error
+NCR-2025-0014,2025-03-13,MCH-5040,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Step height out by 0.08 mm relative to datum, exceeds 0.01 mm GD&T callout.",Use Under Deviation,Tooling/Fixture
+NCR-2025-0015,2025-04-23,MCH-3266,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia measured 10.06 mm, drawing calls 25.0 +/- 0.01 mm. Out of tolerance.",Rework,Process Drift
+NCR-2025-0016,2026-02-10,FBR-7916,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -40 dB on SC connector, below -50 dB requirement.",Rework,Process Drift
+NCR-2025-0017,2026-05-13,MCH-1188,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Hole position out by 0.08 mm relative to datum, exceeds 0.01 mm GD&T callout.",Use Under Deviation,Tooling/Fixture
+NCR-2025-0018,2025-05-31,OPT-8123,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S1 side; measured 40 um, spec is 10-5.",Rework,Operator Error
+NCR-2025-0019,2025-09-17,FBR-2743,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.5 dB target, re-termination needed.",Return to Vendor,Machine/Equipment
+NCR-2025-0020,2025-07-11,FBR-3646,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.1 dB vs 0.3 dB target, re-termination needed.",Rework,Operator Error
+NCR-2025-0021,2025-02-27,OPT-6947,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Inspection found a 40 um scratch on the rear optical surface, exceeds scratch-dig spec 10-5.",Scrap,Tooling/Fixture
+NCR-2025-0022,2025-02-13,OPT-8962,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under dark-field; length approx 60 um, outside 20-10.",Use Under Deviation,Process Drift
+NCR-2025-0023,2026-04-30,ELx-3705,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Repair,Machine/Equipment
+NCR-2025-0024,2026-04-21,FBR-9835,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.1 dB vs 0.3 dB target, re-termination needed.",Rework,Material/Supplier
+NCR-2025-0025,2025-08-13,MCH-9479,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 24.98 mm, drawing calls 10.0 +/- 0.05 mm. Out of tolerance.",Rework,Process Drift
+NCR-2025-0026,2025-10-29,OPT-4770,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 40 um scratch on the front optical surface, exceeds scratch-dig spec 20-10.",Rework,Operator Error
+NCR-2025-0027,2026-04-09,OPT-1514,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Inspection found a 150 um scratch on the rear optical surface, exceeds scratch-dig spec 40-20.",Use Under Deviation,Operator Error
+NCR-2025-0028,2025-04-20,ELx-9834,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Rework,Operator Error
+NCR-2025-0029,2026-02-06,FBR-8749,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 0.6 dB, exceeds 0.5 dB max after active alignment.",Rework,Operator Error
+NCR-2025-0030,2025-07-01,ELx-7939,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad U3; pull test 1.8 g below 4.0 g minimum.,Rework,Material/Supplier
+NCR-2025-0031,2025-07-26,OPT-6559,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Inspection found a 60 um scratch on the rear optical surface, exceeds scratch-dig spec 10-5.",Rework,Operator Error
+NCR-2025-0032,2025-03-13,ELx-7912,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad Q7; pull test 2.1 g below 4.0 g minimum.,Repair,Process Drift
+NCR-2025-0033,2026-02-18,ELx-2604,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Bridging observed between U3 and adjacent pad after reflow.,Scrap,Machine/Equipment
+NCR-2025-0034,2026-04-20,OPT-4872,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S2 side; measured 120 um, spec is 20-10.",Scrap,Operator Error
+NCR-2025-0035,2026-04-08,ELx-1960,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad U3; pull test 3.0 g below 4.0 g minimum.,Repair,Process Drift
+NCR-2025-0036,2025-05-27,ELx-7930,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on R12; reflow voiding 35% exceeds 25% IPC limit.,Repair,Tooling/Fixture
+NCR-2025-0037,2025-10-24,OPT-9883,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 80 um, outside 20-10.",Rework,Tooling/Fixture
+NCR-2025-0038,2025-09-02,CTG-9238,Filter,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 3 particles > 25 um in clear aperture.",Rework,Material/Supplier
+NCR-2025-0039,2025-11-01,OPT-2113,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on rear side; measured 40 um, spec is 10-5.",Rework,Process Drift
+NCR-2025-0040,2025-01-21,CTG-2343,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on rear surface after coating, fails cleanliness Level 50.",Return to Vendor,Process Drift
+NCR-2025-0041,2025-12-09,FBR-6147,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -40 dB on SC connector, below -45 dB requirement.",Rework,Tooling/Fixture
+NCR-2025-0042,2025-08-23,MCH-6180,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Step height measured 10.06 mm, drawing calls 10.0 +/- 0.01 mm. Out of tolerance.",Rework,Operator Error
+NCR-2025-0043,2025-09-17,FBR-5345,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on FC/APC connector, below -45 dB requirement.",Repair,Operator Error
+NCR-2025-0044,2025-03-22,MCH-8179,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia out by 0.12 mm relative to datum, exceeds 0.01 mm GD&T callout.",Use Under Deviation,Machine/Equipment
+NCR-2025-0045,2026-04-23,MCH-2697,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 10.06 mm vs 10.0 mm nominal (0.01 mm tol); oversize.,Rework,Design/Spec
+NCR-2025-0046,2025-03-21,CTG-5462,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on front surface after coating, fails cleanliness Level 50.",Use-As-Is,Process Drift
+NCR-2025-0047,2025-12-18,FBR-5325,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on SC connector, below -45 dB requirement.",Repair,Process Drift
+NCR-2025-0048,2026-03-01,ELx-5533,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 28% exceeds 25% IPC limit.,Scrap,Process Drift
+NCR-2025-0049,2026-01-15,FBR-8239,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.6 dB vs 0.5 dB target, re-termination needed.",Scrap,Tooling/Fixture
+NCR-2025-0050,2026-04-29,OPT-3442,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on rear side; measured 150 um, spec is 40-20.",Rework,Operator Error
+NCR-2025-0051,2025-01-22,FBR-6050,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 1.1 dB, exceeds 0.5 dB max after active alignment.",Repair,Material/Supplier
+NCR-2025-0052,2025-12-08,FBR-2684,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.5 dB vs 0.5 dB target, re-termination needed.",Return to Vendor,Operator Error
+NCR-2025-0053,2026-03-19,FBR-3662,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on SC connector, below -45 dB requirement.",Scrap,Operator Error
+NCR-2025-0054,2026-02-05,MCH-7745,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 24.98 mm vs 10.0 mm nominal (0.05 mm tol); oversize.,Return to Vendor,Tooling/Fixture
+NCR-2025-0055,2026-03-16,OPT-8711,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 120 um scratch on the S1 optical surface, exceeds scratch-dig spec 40-20.",Rework,Process Drift
+NCR-2025-0056,2025-04-25,FBR-1387,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -40 dB on LC connector, below -50 dB requirement.",Rework,Operator Error
+NCR-2025-0057,2025-06-29,MCH-9346,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Hole position out by 0.04 mm relative to datum, exceeds 0.02 mm GD&T callout.",Use Under Deviation,Machine/Equipment
+NCR-2025-0058,2025-04-02,MCH-5349,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Step height measured 5.13 mm, drawing calls 5.0 +/- 0.05 mm. Out of tolerance.",Scrap,Operator Error
+NCR-2025-0059,2025-09-19,CTG-2894,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on front surface after coating, fails cleanliness Level 50.",Scrap,Machine/Equipment
+NCR-2025-0060,2025-12-29,OPT-8144,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under dark-field; length approx 150 um, outside 10-5.",Rework,Process Drift
+NCR-2025-0061,2025-07-06,FBR-8066,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.1 dB vs 0.3 dB target, re-termination needed.",Repair,Material/Supplier
+NCR-2025-0062,2026-01-04,OPT-5920,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 120 um, outside 40-20.",Use-As-Is,Operator Error
+NCR-2025-0063,2025-10-11,MCH-3085,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 12.07 mm vs 25.0 mm nominal (0.01 mm tol); oversize.,Rework,Operator Error
+NCR-2025-0064,2025-06-04,CTG-7653,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 8 sites observed under dark-field.",Rework,Material/Supplier
+NCR-2025-0065,2026-02-07,ELx-6279,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad Q7; pull test 1.8 g below 4.0 g minimum.,Rework,Material/Supplier
+NCR-2025-0066,2025-08-31,CTG-3780,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 8 sites observed under dark-field.",Scrap,Material/Supplier
+NCR-2025-0067,2025-12-11,FBR-6085,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 0.8 dB, exceeds 0.5 dB max after active alignment.",Rework,Process Drift
+NCR-2025-0068,2025-05-06,OPT-8784,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on rear side; measured 120 um, spec is 10-5.",Rework,Operator Error
+NCR-2025-0069,2025-09-11,ELx-7547,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on U3; reflow voiding 28% exceeds 25% IPC limit.,Repair,Process Drift
+NCR-2025-0070,2025-04-01,FBR-9486,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 2.0 dB, exceeds 0.5 dB max after active alignment.",Rework,Material/Supplier
+NCR-2025-0071,2025-08-22,OPT-3184,Window Assembly,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under dark-field; length approx 150 um, outside 10-5.",Use Under Deviation,Process Drift
+NCR-2025-0072,2026-05-02,MCH-8251,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Step height out by 0.12 mm relative to datum, exceeds 0.02 mm GD&T callout.",Use Under Deviation,Process Drift
+NCR-2025-0073,2025-08-19,ELx-5246,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between J1 pin 4 and adjacent pad after reflow.,Rework,Process Drift
+NCR-2025-0074,2025-09-06,CTG-4919,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 3 sites observed under UV lamp.",Rework,Machine/Equipment
+NCR-2025-0075,2025-05-20,FBR-6502,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.6 dB vs 0.5 dB target, re-termination needed.",Return to Vendor,Machine/Equipment
+NCR-2025-0076,2025-04-29,FBR-7275,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.8 dB vs 0.5 dB target, re-termination needed.",Return to Vendor,Process Drift
+NCR-2025-0077,2025-07-28,ELx-6421,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad U3; pull test 2.1 g below 4.0 g minimum.,Repair,Material/Supplier
+NCR-2025-0078,2026-04-09,ELx-1320,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad U3; pull test 3.0 g below 4.0 g minimum.,Repair,Process Drift
+NCR-2025-0079,2026-03-13,ELx-7865,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad R12; pull test 3.0 g below 4.0 g minimum.,Repair,Process Drift
+NCR-2025-0080,2025-01-15,ELx-7371,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Repair,Operator Error
+NCR-2025-0081,2026-03-07,FBR-8657,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.5 dB target, re-termination needed.",Rework,Process Drift
+NCR-2025-0082,2025-10-31,ELx-1444,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Repair,Material/Supplier
+NCR-2025-0083,2026-03-20,FBR-8564,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 1.1 dB, exceeds 0.3 dB max after active alignment.",Rework,Tooling/Fixture
+NCR-2025-0084,2025-04-19,MCH-8449,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 12.07 mm vs 5.0 mm nominal (0.05 mm tol); oversize.,Scrap,Tooling/Fixture
+NCR-2025-0085,2026-03-04,MCH-2341,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia measured 5.13 mm, drawing calls 25.0 +/- 0.01 mm. Out of tolerance.",Return to Vendor,Process Drift
+NCR-2025-0086,2026-02-04,OPT-1659,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Inspection found a 60 um scratch on the front optical surface, exceeds scratch-dig spec 10-5.",Rework,Operator Error
+NCR-2025-0087,2025-05-03,FBR-3068,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.6 dB vs 0.5 dB target, re-termination needed.",Rework,Operator Error
+NCR-2025-0088,2025-12-25,ELx-5198,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on U3; reflow voiding 28% exceeds 25% IPC limit.,Repair,Material/Supplier
+NCR-2025-0089,2025-10-24,OPT-1420,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under dark-field; length approx 120 um, outside 40-20.",Use Under Deviation,Operator Error
+NCR-2025-0090,2025-02-08,FBR-4978,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.1 dB vs 0.5 dB target, re-termination needed.",Rework,Material/Supplier
+NCR-2025-0091,2026-02-05,CTG-1672,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on rear surface after coating, fails cleanliness Level 50.",Scrap,Operator Error
+NCR-2025-0092,2025-09-17,OPT-6590,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on front side; measured 120 um, spec is 40-20.",Use-As-Is,Operator Error
+NCR-2025-0093,2025-11-22,MCH-8532,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 24.98 mm vs 5.0 mm nominal (0.01 mm tol); oversize.,Rework,Tooling/Fixture
+NCR-2025-0094,2026-02-01,CTG-8921,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 8 sites observed under UV lamp.",Use-As-Is,Machine/Equipment
+NCR-2025-0095,2026-03-02,FBR-2419,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on SC connector, below -50 dB requirement.",Return to Vendor,Tooling/Fixture
+NCR-2025-0096,2025-12-09,CTG-7209,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 12 particles > 50 um in clear aperture.",Rework,Material/Supplier
+NCR-2025-0097,2025-09-07,FBR-4475,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -40 dB on SC connector, below -50 dB requirement.",Rework,Tooling/Fixture
+NCR-2025-0098,2025-10-12,MCH-1166,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 12.07 mm, drawing calls 12.0 +/- 0.01 mm. Out of tolerance.",Rework,Machine/Equipment
+NCR-2025-0099,2025-12-20,FBR-8800,Connector Term,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on FC/APC connector, below -45 dB requirement.",Scrap,Machine/Equipment
+NCR-2025-0100,2025-07-27,FBR-4986,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.3 dB target, re-termination needed.",Rework,Tooling/Fixture
+NCR-2025-0101,2025-10-11,ELx-9698,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad J1 pin 4; pull test 3.0 g below 4.0 g minimum.,Rework,Process Drift
+NCR-2025-0102,2025-06-06,MCH-5118,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 5.13 mm, drawing calls 10.0 +/- 0.01 mm. Out of tolerance.",Rework,Machine/Equipment
+NCR-2025-0103,2026-05-02,CTG-4033,Filter,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 12 particles > 50 um in clear aperture.",Rework,Process Drift
+NCR-2025-0104,2026-05-16,CTG-9595,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 5 particles > 50 um in clear aperture.",Rework,Process Drift
+NCR-2025-0105,2025-07-04,FBR-3939,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 2.0 dB, exceeds 0.5 dB max after active alignment.",Repair,Material/Supplier
+NCR-2025-0106,2025-01-24,MCH-1893,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Slot width out by 0.08 mm relative to datum, exceeds 0.01 mm GD&T callout.",Rework,Design/Spec
+NCR-2025-0107,2026-03-23,OPT-1200,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S2 side; measured 120 um, spec is 40-20.",Rework,Material/Supplier
+NCR-2025-0108,2026-05-10,FBR-1841,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on FC/APC connector, below -45 dB requirement.",Rework,Operator Error
+NCR-2025-0109,2025-02-07,ELx-1878,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 28% exceeds 25% IPC limit.,Rework,Operator Error
+NCR-2025-0110,2025-10-13,OPT-7818,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 120 um, outside 40-20.",Rework,Operator Error
+NCR-2025-0111,2026-03-17,MCH-8025,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia out by 0.12 mm relative to datum, exceeds 0.01 mm GD&T callout.",Rework,Process Drift
+NCR-2025-0112,2026-05-01,OPT-4404,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on rear side; measured 40 um, spec is 20-10.",Rework,Tooling/Fixture
+NCR-2025-0113,2025-10-10,FBR-2229,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 1.5 dB, exceeds 0.3 dB max after active alignment.",Return to Vendor,Operator Error
+NCR-2025-0114,2025-08-29,CTG-5771,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 8 particles > 100 um in clear aperture.",Rework,Process Drift
+NCR-2025-0115,2025-12-26,MCH-8438,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Slot width out by 0.12 mm relative to datum, exceeds 0.05 mm GD&T callout.",Return to Vendor,Operator Error
+NCR-2025-0116,2025-12-05,CTG-4241,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 5 particles > 100 um in clear aperture.",Rework,Material/Supplier
+NCR-2025-0117,2026-04-11,FBR-5352,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 0.6 dB, exceeds 0.5 dB max after active alignment.",Scrap,Material/Supplier
+NCR-2025-0118,2025-11-01,MCH-5728,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Step height measured 5.13 mm, drawing calls 12.0 +/- 0.05 mm. Out of tolerance.",Return to Vendor,Process Drift
+NCR-2025-0119,2025-10-04,CTG-9090,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 3 particles > 50 um in clear aperture.",Return to Vendor,Process Drift
+NCR-2025-0120,2025-11-06,MCH-5102,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 10.06 mm, drawing calls 5.0 +/- 0.01 mm. Out of tolerance.",Rework,Machine/Equipment
+NCR-2025-0121,2026-01-26,OPT-3870,Window Assembly,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 120 um, outside 40-20.",Rework,Process Drift
+NCR-2025-0122,2025-08-12,CTG-9056,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 8 sites observed under UV lamp.",Rework,Operator Error
+NCR-2025-0123,2025-06-14,MCH-2713,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 12.07 mm vs 12.0 mm nominal (0.05 mm tol); oversize.,Scrap,Design/Spec
+NCR-2025-0124,2026-02-21,ELx-1601,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 35% exceeds 25% IPC limit.,Repair,Machine/Equipment
+NCR-2025-0125,2026-05-12,OPT-7622,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 150 um, outside 40-20.",Rework,Operator Error
+NCR-2025-0126,2025-04-07,OPT-9494,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 120 um, outside 10-5.",Rework,Material/Supplier
+NCR-2025-0127,2025-04-15,OPT-5375,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S2 side; measured 120 um, spec is 20-10.",Rework,Machine/Equipment
+NCR-2025-0128,2026-05-14,OPT-4920,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on front side; measured 150 um, spec is 10-5.",Use Under Deviation,Process Drift
+NCR-2025-0129,2025-02-17,ELx-4681,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad U3; pull test 1.8 g below 4.0 g minimum.,Scrap,Operator Error
+NCR-2025-0130,2026-04-23,ELx-5781,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad Q7; pull test 3.0 g below 4.0 g minimum.,Rework,Material/Supplier
+NCR-2025-0131,2025-10-10,ELx-3369,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on R12; reflow voiding 28% exceeds 25% IPC limit.,Repair,Material/Supplier
+NCR-2025-0132,2025-06-24,ELx-9318,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 40% exceeds 25% IPC limit.,Repair,Machine/Equipment
+NCR-2025-0133,2025-10-24,CTG-9022,Filter,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 12 sites observed under UV lamp.",Rework,Operator Error
+NCR-2025-0134,2025-10-10,MCH-9903,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 5.13 mm vs 25.0 mm nominal (0.01 mm tol); oversize.,Rework,Operator Error
+NCR-2025-0135,2025-10-20,FBR-7274,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on SC connector, below -50 dB requirement.",Rework,Tooling/Fixture
+NCR-2025-0136,2025-12-28,ELx-7246,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Bridging observed between R12 and adjacent pad after reflow.,Repair,Process Drift
+NCR-2025-0137,2026-05-09,ELx-1606,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between J1 pin 4 and adjacent pad after reflow.,Repair,Machine/Equipment
+NCR-2025-0138,2026-03-24,OPT-8213,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under dark-field; length approx 120 um, outside 20-10.",Use-As-Is,Process Drift
+NCR-2025-0139,2025-07-29,FBR-3529,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -40 dB on SC connector, below -50 dB requirement.",Rework,Process Drift
+NCR-2025-0140,2025-11-29,ELx-2315,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Repair,Process Drift
+NCR-2025-0141,2025-11-17,MCH-8994,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia out by 0.12 mm relative to datum, exceeds 0.02 mm GD&T callout.",Rework,Design/Spec
+NCR-2025-0142,2025-04-27,MCH-2480,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia measured 12.07 mm, drawing calls 25.0 +/- 0.01 mm. Out of tolerance.",Scrap,Tooling/Fixture
+NCR-2025-0143,2026-04-08,MCH-1474,Housing,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 10.06 mm vs 5.0 mm nominal (0.05 mm tol); oversize.,Use Under Deviation,Tooling/Fixture
+NCR-2025-0144,2025-08-09,MCH-3385,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,"Step height out by 0.12 mm relative to datum, exceeds 0.01 mm GD&T callout.",Rework,Tooling/Fixture
+NCR-2025-0145,2025-03-29,FBR-3868,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.5 dB vs 0.5 dB target, re-termination needed.",Rework,Tooling/Fixture
+NCR-2025-0146,2026-04-13,ELx-3344,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad J1 pin 4; pull test 3.0 g below 4.0 g minimum.,Repair,Tooling/Fixture
+NCR-2025-0147,2026-04-06,OPT-8622,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 150 um, outside 20-10.",Rework,Operator Error
+NCR-2025-0148,2026-04-29,ELx-6661,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between Q7 and adjacent pad after reflow.,Rework,Machine/Equipment
+NCR-2025-0149,2025-08-22,MCH-5949,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 12.07 mm vs 10.0 mm nominal (0.02 mm tol); oversize.,Rework,Process Drift
+NCR-2025-0150,2025-10-20,ELx-6881,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Bridging observed between J1 pin 4 and adjacent pad after reflow.,Repair,Material/Supplier
+NCR-2025-0151,2026-05-16,OPT-7484,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Inspection found a 150 um scratch on the front optical surface, exceeds scratch-dig spec 10-5.",Rework,Process Drift
+NCR-2025-0152,2026-03-03,ELx-5689,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between J1 pin 4 and adjacent pad after reflow.,Repair,Material/Supplier
+NCR-2025-0153,2025-11-22,FBR-4115,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.8 dB vs 0.5 dB target, re-termination needed.",Rework,Operator Error
+NCR-2025-0154,2025-06-08,OPT-8222,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 80 um, outside 10-5.",Scrap,Tooling/Fixture
+NCR-2025-0155,2026-04-11,OPT-5835,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 120 um, outside 20-10.",Scrap,Machine/Equipment
+NCR-2025-0156,2026-02-07,FBR-9837,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.3 dB target, re-termination needed.",Rework,Process Drift
+NCR-2025-0157,2025-05-12,FBR-8894,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 1.1 dB vs 0.5 dB target, re-termination needed.",Return to Vendor,Operator Error
+NCR-2025-0158,2026-05-09,ELx-2233,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on Q7; reflow voiding 40% exceeds 25% IPC limit.,Rework,Material/Supplier
+NCR-2025-0159,2026-02-09,OPT-7464,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on front side; measured 150 um, spec is 40-20.",Use Under Deviation,Machine/Equipment
+NCR-2025-0160,2025-12-11,MCH-5295,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Hole position out by 0.12 mm relative to datum, exceeds 0.02 mm GD&T callout.",Use Under Deviation,Process Drift
+NCR-2025-0161,2025-08-30,FBR-1410,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.8 dB vs 0.5 dB target, re-termination needed.",Rework,Operator Error
+NCR-2025-0162,2026-04-11,ELx-5951,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on R12; reflow voiding 28% exceeds 25% IPC limit.,Repair,Material/Supplier
+NCR-2025-0163,2025-09-10,MCH-2902,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 12.07 mm, drawing calls 12.0 +/- 0.05 mm. Out of tolerance.",Use Under Deviation,Process Drift
+NCR-2025-0164,2025-08-03,CTG-3531,Reflector,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on front surface after coating, fails cleanliness Level 50.",Scrap,Machine/Equipment
+NCR-2025-0165,2025-07-28,CTG-5583,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on rear surface after coating, fails cleanliness MIL-C-48497.",Return to Vendor,Design/Spec
+NCR-2025-0166,2025-08-16,ELx-4868,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 40% exceeds 25% IPC limit.,Scrap,Machine/Equipment
+NCR-2025-0167,2025-07-23,OPT-5520,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 120 um scratch on the front optical surface, exceeds scratch-dig spec 10-5.",Rework,Tooling/Fixture
+NCR-2025-0168,2025-11-25,FBR-1349,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Return loss -35 dB on SC connector, below -45 dB requirement.",Scrap,Machine/Equipment
+NCR-2025-0169,2025-02-05,FBR-4394,Collimator Assembly,Fiber Assembly,Fiber Alignment / Insertion Loss,"Insertion loss measured 1.1 dB, exceeds 0.5 dB max after active alignment.",Rework,Tooling/Fixture
+NCR-2025-0170,2025-01-02,CTG-5542,Filter,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 8 particles > 25 um in clear aperture.",Rework,Material/Supplier
+NCR-2025-0171,2025-12-05,OPT-1422,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 80 um scratch on the rear optical surface, exceeds scratch-dig spec 10-5.",Rework,Process Drift
+NCR-2025-0172,2025-01-09,MCH-3854,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 12.07 mm, drawing calls 10.0 +/- 0.01 mm. Out of tolerance.",Use Under Deviation,Machine/Equipment
+NCR-2025-0173,2025-09-01,OPT-8344,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 150 um, outside 20-10.",Scrap,Tooling/Fixture
+NCR-2025-0174,2025-04-24,CTG-1710,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 3 sites observed under dark-field.",Return to Vendor,Process Drift
+NCR-2025-0175,2026-03-10,ELx-7580,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Bridging observed between U3 and adjacent pad after reflow.,Rework,Process Drift
+NCR-2025-0176,2025-12-31,ELx-8267,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 40% exceeds 25% IPC limit.,Scrap,Machine/Equipment
+NCR-2025-0177,2025-03-06,OPT-5505,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S1 side; measured 150 um, spec is 40-20.",Rework,Machine/Equipment
+NCR-2025-0178,2025-11-06,CTG-8048,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on front surface after coating, fails cleanliness MIL-C-48497.",Rework,Process Drift
+NCR-2025-0179,2025-08-20,ELx-4743,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Wire bond lifted on pad Q7; pull test 3.0 g below 4.0 g minimum.,Repair,Machine/Equipment
+NCR-2025-0180,2025-06-10,OPT-7992,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under collimated inspection lamp; length approx 80 um, outside 40-20.",Rework,Tooling/Fixture
+NCR-2025-0181,2025-02-04,ELx-2494,Driver PCBA,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on Q7; reflow voiding 28% exceeds 25% IPC limit.,Rework,Machine/Equipment
+NCR-2025-0182,2025-10-12,FBR-1982,Splice Module,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 0.6 dB vs 0.3 dB target, re-termination needed.",Rework,Machine/Equipment
+NCR-2025-0183,2026-03-24,MCH-7929,Housing,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 5.13 mm vs 5.0 mm nominal (0.02 mm tol); oversize.,Rework,Process Drift
+NCR-2025-0184,2025-09-17,CTG-4485,Filter,Coating / Cleanliness,Contamination / Coating Defect,"Residue / haze on rear surface after coating, fails cleanliness MIL-C-48497.",Rework,Operator Error
+NCR-2025-0185,2025-06-29,OPT-7022,Lens Cell,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on rear side; measured 150 um, spec is 40-20.",Scrap,Operator Error
+NCR-2025-0186,2026-05-14,CTG-1430,Coated Window,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 5 particles > 50 um in clear aperture.",Return to Vendor,Operator Error
+NCR-2025-0187,2026-04-17,MCH-6567,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Slot width measured 24.98 mm, drawing calls 12.0 +/- 0.02 mm. Out of tolerance.",Return to Vendor,Process Drift
+NCR-2025-0188,2026-01-15,FBR-1502,Fiber Pigtail,Fiber Assembly,Fiber Alignment / Insertion Loss,"Core offset suspected; IL 2.0 dB vs 0.5 dB target, re-termination needed.",Rework,Operator Error
+NCR-2025-0189,2025-08-03,ELx-8432,Solder Assembly,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 35% exceeds 25% IPC limit.,Rework,Material/Supplier
+NCR-2025-0190,2025-11-02,CTG-2391,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Particulate contamination on coated surface, 5 particles > 100 um in clear aperture.",Scrap,Process Drift
+NCR-2025-0191,2025-12-12,OPT-2336,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Visible dig defect near clear aperture on S2 side; measured 120 um, spec is 10-5.",Rework,Machine/Equipment
+NCR-2025-0192,2025-08-01,ELx-5475,Wire-bond Module,Electronics / Bonding,Solder / Bond Defect,Bridging observed between U3 and adjacent pad after reflow.,Repair,Tooling/Fixture
+NCR-2025-0193,2025-08-09,MCH-2816,Baseplate,Precision Machining,Dimensional Out-of-Tolerance,"Step height out by 0.12 mm relative to datum, exceeds 0.01 mm GD&T callout.",Rework,Machine/Equipment
+NCR-2025-0194,2025-01-24,MCH-4612,Spacer Ring,Precision Machining,Dimensional Out-of-Tolerance,"Bore dia out by 0.04 mm relative to datum, exceeds 0.02 mm GD&T callout.",Use Under Deviation,Tooling/Fixture
+NCR-2025-0195,2026-04-30,MCH-4460,Flexure Mount,Precision Machining,Dimensional Out-of-Tolerance,Bore diameter 5.13 mm vs 5.0 mm nominal (0.02 mm tol); oversize.,Use Under Deviation,Process Drift
+NCR-2025-0196,2025-09-12,OPT-8055,Beam Splitter Mount,Optical Assembly,Surface Scratch/Dig,"Inspection found a 120 um scratch on the rear optical surface, exceeds scratch-dig spec 10-5.",Rework,Tooling/Fixture
+NCR-2025-0197,2026-03-03,CTG-6802,AR-Coated Optic,Coating / Cleanliness,Contamination / Coating Defect,"Coating pinhole defect, 3 sites observed under UV lamp.",Rework,Operator Error
+NCR-2025-0198,2025-08-24,OPT-2275,Mirror Substrate,Optical Assembly,Surface Scratch/Dig,"Surface scratch on coated face observed under fiber illuminator; length approx 120 um, outside 10-5.",Rework,Process Drift
+NCR-2025-0199,2025-05-29,ELx-2887,Flex Cable,Electronics / Bonding,Solder / Bond Defect,Cold solder joint on J1 pin 4; reflow voiding 28% exceeds 25% IPC limit.,Repair,Process Drift
+NCR-2025-0200,2025-02-15,MCH-8155,Housing,Precision Machining,Dimensional Out-of-Tolerance,"Step height measured 12.07 mm, drawing calls 10.0 +/- 0.05 mm. Out of tolerance.",Use Under Deviation,Machine/Equipment

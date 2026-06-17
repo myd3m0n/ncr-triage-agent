@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Chroma vector store — rebuilt from data/ncrs.jsonl via `python src/retriever.py`
+data/chroma/
+
+# Claude Code local (per-machine) settings — not shared
+**/settings.local.json
